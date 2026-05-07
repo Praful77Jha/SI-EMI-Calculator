@@ -1,26 +1,57 @@
 # 💰 SI & EMI Calculator
 
-A desktop application built in Java that provides two calculators in one — Simple Interest (SI) and EMI (Equated Monthly Installment).
+A Java desktop application with a dual panel UI to calculate both Simple Interest and Equated Monthly Installments.
 
-## Features
+---
 
-- **Simple Interest Calculator** — Calculate SI based on Principal, Rate, and Time
-- **EMI Calculator** — Calculate monthly installments based on Loan Amount, Interest Rate, and Tenure
-- **Dual Panel UI** — Both calculators available in a single window with separate panels
-- Built using **Java Swing/AWT**
+## 🚀 Features
 
-## Tech Stack
+- Calculate **Simple Interest** based on principal, rate, and time
+- Calculate **EMI** for loans using the standard EMI formula
+- Clean dual-panel UI built with Java Swing/AWT
+- User-friendly input handling and instant results
+
+---
+
+## 🛠️ Tech Stack
 
 - Java
-- Swing / AWT
+- Java Swing / AWT
+- OOP Concepts
 
-## How to Run
+---
 
-1. Clone the repository
-2. Open in any Java IDE (NetBeans, IntelliJ, Eclipse)
-3. Run the main class
+## 📐 Formulas Used
 
-## Author
+**Simple Interest:**
+```
+SI = (P × R × T) / 100
+```
 
-**Praful Kumar Jha**  
-GitHub: [Praful77Jha](https://github.com/Praful77Jha)
+**EMI:**
+```
+EMI = [P × r × (1 + r)^n] / [(1 + r)^n - 1]
+```
+Where:
+- P = Principal loan amount
+- r = Monthly interest rate
+- n = Loan tenure in months
+
+---
+
+## 📚 What I Learned
+
+- Building GUI applications with Java Swing/AWT
+- Implementing financial formulas in code
+- Handling user input and displaying computed results
+- Structuring a multi-feature Java application
+
+---
+
+## 🔗 Links
+
+- GitHub: https://github.com/Praful77Jha
+
+---
+
+Built while learning Java and exploring real-world applications 🚀
